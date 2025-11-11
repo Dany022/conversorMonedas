@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ConsultaMoneda {
     public Moneda buscaMoneda(String monedaBase) {
-        String apiKey = "35d6db294cf89e9fff006ea4"; // Tu key real
+        String apiKey = "TU_API_KEY_AQUI"; // Tu key real
         String direccion = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + monedaBase;
 
         try {
